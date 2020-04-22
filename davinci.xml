@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<!-- track davinci hals from lineage -->
+<remove-project name="PixelExperience/hardware_qcom-caf_sm8150_audio" />
+<remove-project name="PixelExperience/hardware_qcom-caf_sm8150_display" />
+<remove-project name="PixelExperience/hardware_qcom-caf_sm8150_media" />
+<project name="LineageOS/android_hardware_qcom_display" remote="github" revision="lineage-17.1-caf-sm8150" path="hardware/qcom-caf/sm8150/display" />
+<project name="LineageOS/android_hardware_qcom_media" remote="github" revision="lineage-17.1-caf-sm8150" path="hardware/qcom-caf/sm8150/media" />
+<project name="LineageOS/android_hardware_qcom_audio" remote="github" revision="lineage-17.1-caf-sm8150" path="hardware/qcom-caf/sm8150/audio" />
+</manifest>
+
+
