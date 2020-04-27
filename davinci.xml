@@ -13,6 +13,9 @@
 <project path="device/xiaomi/sm6150-common" />
 <project path="kernel/xiaomi/sm6150" />
 <project path="vendor/xiaomi" />
+
+<!-- track hardware/xiaomi from los -->
+<project name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-17.1" path="hardware/xiaomi" />
 </manifest>
 
 
