@@ -1,21 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<!-- track davinci hals from lineage -->
-<remove-project name="PixelExperience/hardware_qcom-caf_sm8150_audio" />
-<remove-project name="PixelExperience/hardware_qcom-caf_sm8150_display" />
-<remove-project name="PixelExperience/hardware_qcom-caf_sm8150_media" />
-<project name="LineageOS/android_hardware_qcom_display" remote="github" revision="lineage-17.1-caf-sm8150" path="hardware/qcom-caf/sm8150/display" />
-<project name="LineageOS/android_hardware_qcom_media" remote="github" revision="lineage-17.1-caf-sm8150" path="hardware/qcom-caf/sm8150/media" />
-<project name="LineageOS/android_hardware_qcom_audio" remote="github" revision="lineage-17.1-caf-sm8150" path="hardware/qcom-caf/sm8150/audio" />
-
 <!-- track mine trees -->
 <project name="adi8900/device_xiaomi_davinci" remote="github" revision="derp-new" path="device/xiaomi/davinci" />
 <project name="adi8900/device_xiaomi_sm6150-common" remote="github" revision="derp" path="device/xiaomi/sm6150-common" />
 <project name="adi8900/kernel_xiaomi_sm6150" remote="github" revision="unified" path="kernel/xiaomi/sm6150" />
 <project name="adi8900/proprietary_vendor_xiaomi" remote="gitlab" revision="derp" path="vendor/xiaomi" />
 
-<!-- track hardware/xiaomi from los -->
-<project name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-17.1" path="hardware/xiaomi" />
+<!-- track hardware/xiaomi from mine git -->
+<project name="adi8900/hardware_xiaomi" remote="github" revision="derp" path="hardware/xiaomi" />
 </manifest>
 
 
