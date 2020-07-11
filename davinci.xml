@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <!-- track mine trees -->
-<project name="adi8900/device_xiaomi_davinci" remote="github" revision="derp-new" path="device/xiaomi/davinci" />
+<project name="adi8900/device_xiaomi_davinci" remote="github" revision="derp" path="device/xiaomi/davinci" />
 <project name="adi8900/device_xiaomi_sm6150-common" remote="github" revision="derp" path="device/xiaomi/sm6150-common" />
 <project name="adi8900/kernel_xiaomi_sm6150" remote="github" revision="unified" path="kernel/xiaomi/sm6150" />
 <project name="adi8900/proprietary_vendor_xiaomi" remote="gitlab" revision="derp" path="vendor/xiaomi" />
